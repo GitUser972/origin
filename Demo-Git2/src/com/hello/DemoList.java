@@ -18,17 +18,28 @@ public class DemoList {
 			// inTable(i)
 		}
 
+		
 	}
 
 	public String outTable(int index) {
-		List<String> outkyeList = new ArrayList<String>();
+		List<String> outkyeList = getoutTableList();
 		String key = outkyeList.get(index);
 		return key;
 	}
 
+	private List<String> getoutTableList() {
+		
+		return null;
+	}
+
 	public String inTable(int index) {
-		List<String> inkyeList = new ArrayList<String>();
+		List<String> inkyeList = getInTableList();
 		String key = inkyeList.get(index);
 		return key;
+	}
+
+	private List<String> getInTableList() {
+		
+		return null;
 	}
 }
