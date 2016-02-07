@@ -9,13 +9,13 @@ public class DemoList {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < keyfileList.size(); i++) {
-			// out outTable
+			// out outTable(i)
 			// sum
-			// in inTable
+			// in inTable(i)
 			i++;
-			// outTAble
+			// outTable(i)
 			// count
-			// inTable
+			// inTable(i)
 		}
 
 	}
